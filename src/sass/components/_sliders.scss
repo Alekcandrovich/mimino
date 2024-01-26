@@ -70,21 +70,22 @@
 .swiper-btn {
   width: 60px;
 }
-.slider-container {
-  width: 320px;
+// .slider-container {
+//   width: 320px;
 
-  @media screen and (min-width = 414px) {
-    width: 404px;
-  }
+//   @media screen and (min-width = 414px) {
+//     width: 404px;
+//   }
 
-  @media screen and (min-width = 1024px) {
-    // width: 548px;
-    width: 428px;
-  }
-  @media screen and (min-width = 1280px) {
-    width: 548px;
-  }
-}
+//   @media screen and (min-width = 1024px) {
+//     // width: 548px;
+//     width: 428px;
+//   }
+//   @media screen and (min-width = 1280px) {
+//     width: 548px;
+//   }
+// }
+
 .slider-container.page3 {
   width: 320px;
 
