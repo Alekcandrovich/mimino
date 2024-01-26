@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-mimino-team4",
+  "name": "mimino",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://Alekcandrovich.github.io/mimino",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-mimino-team4/"
+    "build": "parcel build src/*.html --public-url /mimino/"
   },
   "repository": {
     "type": "git",
