@@ -128,13 +128,13 @@
     background-color: $black;
   }
 
-  &__slider-button {
-    @media screen and (min-width = 1024px) {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  }
+  // &__slider-button {
+  //   @media screen and (min-width = 1024px) {
+  //     display: flex;
+  //     justify-content: space-between;
+  //     align-items: center;
+  //   }
+  // }
 
   @media screen and (max-width: 1023px) {
     &__swiper-btns {
