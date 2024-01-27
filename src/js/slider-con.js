@@ -297,7 +297,7 @@ function swiperSlider() {
 
       // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
-
+    
       let swiper = new Swiper(slider.querySelector('.swiper'), {
         speed: 1500,
         loop: true,
@@ -373,8 +373,8 @@ function swiperSlider() {
         loop: true,
         centeredSlides: true,
         autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
+            delay: 3000,
+            disableOnInteraction: false,
         },
         slidesPerView: 1,
         spaceBetween: 20,
