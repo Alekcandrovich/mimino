@@ -24,7 +24,7 @@ function swiperSlider() {
       // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
 
-      let swiper = new swiper(slider.querySelector('.swiper'), {
+      let swiper = new Swiper(slider.querySelector('.swiper'), {
         loop: true,
         speed: 1500,
         centeredSlides: true,
@@ -92,7 +92,7 @@ function swiperSlider() {
       // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
 
-      let swiper = new swiper(slider.querySelector('.swiper'), {
+      let swiper = new Swiper(slider.querySelector('.swiper'), {
         speed: 1500,
         loop: true,
         centeredSlides: true,
@@ -160,7 +160,7 @@ function swiperSlider() {
       // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
 
-      let swiper = new swiper(slider.querySelector('.swiper'), {
+      let swiper = new Swiper(slider.querySelector('.swiper'), {
         speed: 1500,
         loop: true,
         centeredSlides: true,
@@ -229,7 +229,7 @@ function swiperSlider() {
       // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
 
-      let swiper = new swiper(slider.querySelector('.swiper'), {
+      let swiper = new Swiper(slider.querySelector('.swiper'), {
         speed: 1500,
         loop: true,
         centeredSlides: true,
@@ -297,8 +297,8 @@ function swiperSlider() {
 
       // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
-    
-      let swiper = new swiper(slider.querySelector('.swiper'), {
+
+      let swiper = new Swiper(slider.querySelector('.swiper'), {
         speed: 1500,
         loop: true,
         centeredSlides: true,
@@ -368,7 +368,7 @@ function swiperSlider() {
       // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
 
-      let swiper = new swiper(slider.querySelector('.swiper'), {
+      let swiper = new Swiper(slider.querySelector('.swiper'), {
         speed: 1500,
         loop: true,
         centeredSlides: true,
@@ -385,11 +385,12 @@ function swiperSlider() {
             return '<li class="' + className + '"></li>';
           },
         },
+        //
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
         },
-
+        //
         on: {
           transitionStart: function () {
             let previousIndex = this.previousIndex;
@@ -408,8 +409,6 @@ function swiperSlider() {
             activeSlide.classList.add('is-play');
           },
         },
-
-        // адаптив
         breakpoints: {
           320: {
             slidesPerView: 1,
