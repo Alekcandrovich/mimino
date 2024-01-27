@@ -157,19 +157,19 @@
   }
 }
 
-// .container-slider {
-//   max-width: 414px;
-//   margin: 0 auto;
-//   @include tablet {
-//     max-width: 1024px;
-//     margin: 0 auto;
-//   }
+.container-slider {
+  max-width: 414px;
+  margin: 0 auto;
+  @include tablet {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
 
-//   @include desktop {
-//     max-width: 1280px;
-//     margin: 0 auto;
-//   }
-// }
+  @include desktop {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
 .header__background {
   max-width: 414px;
   margin: 0 auto;

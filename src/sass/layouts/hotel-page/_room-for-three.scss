@@ -196,8 +196,8 @@
   overflow: hidden;
 }
 
-// .title-description {
-//   @media screen and (min-width = 1024px) {
-//     margin-bottom: 176px;
-//   }
-// }
+.title-description {
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 176px;
+  }
+}

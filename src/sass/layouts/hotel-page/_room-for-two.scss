@@ -153,16 +153,16 @@
   overflow: hidden;
 }
 
-// .room-for-two__block {
-//   @media screen and (min-width = 1024px) {
-//     margin-bottom: 176px;
-//   }
-// }
-// .room-for-two__swiper-btns {
-//   @media screen and (max-width = 1023px) {
-//     margin-right: 154px;
-//   }
-//   @media screen and (min-width = 1024px) {
-//     margin-right: -24px;
-//   }
-// }
+.room-for-two__block {
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 176px;
+  }
+}
+.room-for-two__swiper-btns {
+  @media screen and (max-width: 1023px) {
+    margin-right: 154px;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-right: -24px;
+  }
+}
