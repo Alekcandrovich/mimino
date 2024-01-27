@@ -17,27 +17,23 @@ function swiperSlider() {
 
   if (doubleMain) {
     doubleMain.forEach(slider => {
-      // кнопки вперед та назад
+      // кнопки вперед и назад
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
 
-      //коментуємо чи видаляемо якщо не потрібно
+      // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
-      //коментуємо чи видаляемо якщо не потрібно
 
-      let swiper = new Swiper(slider.querySelector('.swiper'), {
+      let swiper = new swiper(slider.querySelector('.swiper'), {
         loop: true,
         speed: 1500,
-        // автоплей
-        //centeredSlides: true,
-        // autoplay: {
-        //     delay: 3000,
-        //     disableOnInteraction: false,
-        // },
-        slidesPerView: 2, // кількість слайдерів для показу
-        spaceBetween: 20, // відстань між слайдерами
-
-        // крапки пагінації
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        slidesPerView: 2,
+        spaceBetween: 20,
         pagination: {
           el: pagination,
           clickable: true,
@@ -45,14 +41,10 @@ function swiperSlider() {
             return '<li class="' + className + '"></li>';
           },
         },
-        // кнопки навігації
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
         },
-
-        // додаємо додатковий клас
-        // можна використовувати для додаткових анімацій
         on: {
           transitionStart: function () {
             let previousIndex = this.previousIndex;
@@ -71,19 +63,17 @@ function swiperSlider() {
             activeSlide.classList.add('is-play');
           },
         },
+
         // адаптив
         breakpoints: {
-          // when window width is >= 320px
           320: {
             slidesPerView: 2,
             spaceBetween: 16,
           },
-          // when window width is >= 768px
           1024: {
             slidesPerView: 2,
             spaceBetween: 40,
           },
-          // when window width is >= 1200px
           1280: {
             slidesPerView: 2,
             spaceBetween: 40,
@@ -95,27 +85,23 @@ function swiperSlider() {
 
   if (doublep3Main) {
     doublep3Main.forEach(slider => {
-      // кнопки вперед та назад
+      // кнопки вперед и назад
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
 
-      //коментуємо чи видаляемо якщо не потрібно
+      // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
-      //коментуємо чи видаляемо якщо не потрібно
 
-      let swiper = new Swiper(slider.querySelector('.swiper'), {
+      let swiper = new swiper(slider.querySelector('.swiper'), {
         speed: 1500,
         loop: true,
-        // автоплей
-        //centeredSlides: true,
-        // autoplay: {
-        //     delay: 3000,
-        //     disableOnInteraction: false,
-        // },
-        slidesPerView: 2, // кількість слайдерів для показу
-        spaceBetween: 20, // відстань між слайдерами
-
-        // крапки пагінації
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        slidesPerView: 2,
+        spaceBetween: 20,
         pagination: {
           el: pagination,
           clickable: true,
@@ -123,14 +109,10 @@ function swiperSlider() {
             return '<li class="' + className + '"></li>';
           },
         },
-        // кнопки навігації
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
         },
-
-        // додаємо додатковий клас
-        // можна використовувати для додаткових анімацій
         on: {
           transitionStart: function () {
             let previousIndex = this.previousIndex;
@@ -149,19 +131,17 @@ function swiperSlider() {
             activeSlide.classList.add('is-play');
           },
         },
+
         // адаптив
         breakpoints: {
-          // when window width is >= 320px
           320: {
             slidesPerView: 2,
             spaceBetween: 24,
           },
-          // when window width is >= 768px
           1024: {
             slidesPerView: 2,
             spaceBetween: 40,
           },
-          // when window width is >= 1200px
           1280: {
             slidesPerView: 2,
             spaceBetween: 40,
@@ -173,27 +153,23 @@ function swiperSlider() {
 
   if (doublep4Main) {
     doublep4Main.forEach(slider => {
-      // кнопки вперед та назад
+      // кнопки вперед и назад
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
 
-      //коментуємо чи видаляемо якщо не потрібно
+      // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
-      //коментуємо чи видаляемо якщо не потрібно
 
-      let swiper = new Swiper(slider.querySelector('.swiper'), {
+      let swiper = new swiper(slider.querySelector('.swiper'), {
         speed: 1500,
         loop: true,
-        // автоплей
-        //centeredSlides: true,
-        // autoplay: {
-        //     delay: 3000,
-        //     disableOnInteraction: false,
-        // },
-        slidesPerView: 2, // кількість слайдерів для показу
-        spaceBetween: 20, // відстань між слайдерами
-
-        // крапки пагінації
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        slidesPerView: 2,
+        spaceBetween: 20,
         pagination: {
           el: pagination,
           clickable: true,
@@ -201,14 +177,11 @@ function swiperSlider() {
             return '<li class="' + className + '"></li>';
           },
         },
-        // кнопки навігації
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
         },
 
-        // додаємо додатковий клас
-        // можна використовувати для додаткових анімацій
         on: {
           transitionStart: function () {
             let previousIndex = this.previousIndex;
@@ -227,19 +200,17 @@ function swiperSlider() {
             activeSlide.classList.add('is-play');
           },
         },
+
         // адаптив
         breakpoints: {
-          // when window width is >= 320px
           320: {
             slidesPerView: 2,
             spaceBetween: 20,
           },
-          // when window width is >= 768px
           1024: {
             slidesPerView: 2,
             spaceBetween: 40,
           },
-          // when window width is >= 1200px
           1280: {
             slidesPerView: 2,
             spaceBetween: 40,
@@ -255,23 +226,19 @@ function swiperSlider() {
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
 
-      //коментуємо чи видаляемо якщо не потрібно
+      // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
-      //коментуємо чи видаляемо якщо не потрібно
 
-      let swiper = new Swiper(slider.querySelector('.swiper'), {
+      let swiper = new swiper(slider.querySelector('.swiper'), {
         speed: 1500,
         loop: true,
-        // автоплей
-        //centeredSlides: true,
-        // autoplay: {
-        //     delay: 3000,
-        //     disableOnInteraction: false,
-        // },
-        slidesPerView: 3, // кількість слайдерів для показу
-        spaceBetween: 20, // відстань між слайдерами
-
-        // крапки пагінації
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        slidesPerView: 3,
+        spaceBetween: 20,
         pagination: {
           el: pagination,
           clickable: true,
@@ -279,14 +246,11 @@ function swiperSlider() {
             return '<li class="' + className + '"></li>';
           },
         },
-        // кнопки навігації
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
         },
 
-        // додаємо додатковий клас
-        // можна використовувати для додаткових анімацій
         on: {
           transitionStart: function () {
             let previousIndex = this.previousIndex;
@@ -305,19 +269,17 @@ function swiperSlider() {
             activeSlide.classList.add('is-play');
           },
         },
+
         // адаптив
         breakpoints: {
-          // when window width is >= 320px
           320: {
             slidesPerView: 3,
             spaceBetween: 20,
           },
-          // when window width is >= 768px
           1024: {
             slidesPerView: 3,
             spaceBetween: 34,
           },
-          // when window width is >= 1200px
           1280: {
             slidesPerView: 'auto',
             spaceBetween: 86,
@@ -333,24 +295,20 @@ function swiperSlider() {
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
 
-      //коментуємо чи видаляемо якщо не потрібно
+      // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
-      //коментуємо чи видаляемо якщо не потрібно
-
-      let swiper = new Swiper(slider.querySelector('.swiper'), {
+    
+      let swiper = new swiper(slider.querySelector('.swiper'), {
         speed: 1500,
         loop: true,
-        // автоплей
-        //centeredSlides: true,
-        // autoplay: {
-        //   delay: 3000,
-        //   reverseDirection: true;
-        //   disableOnInteraction: true,
-        // },
-        slidesPerView: 3, // кількість слайдерів для показу
-        spaceBetween: 20, // відстань між слайдерами
-
-        // крапки пагінації
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          reverseDirection: true,
+          disableOnInteraction: true,
+        },
+        slidesPerView: 3,
+        spaceBetween: 20,
         pagination: {
           el: pagination,
           clickable: true,
@@ -358,14 +316,11 @@ function swiperSlider() {
             return '<li class="' + className + '"></li>';
           },
         },
-        // кнопки навігації
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
         },
 
-        // додаємо додатковий клас
-        // можна використовувати для додаткових анімацій
         on: {
           transitionStart: function () {
             let previousIndex = this.previousIndex;
@@ -384,19 +339,17 @@ function swiperSlider() {
             activeSlide.classList.add('is-play');
           },
         },
+
         // адаптив
         breakpoints: {
-          // when window width is >= 320px
           320: {
             slidesPerView: 3,
             spaceBetween: 20,
           },
-          // when window width is >= 768px
           1024: {
             slidesPerView: 3,
             spaceBetween: 34,
           },
-          // when window width is >= 1200px
           1280: {
             slidesPerView: 'auto',
             spaceBetween: 86,
@@ -408,20 +361,21 @@ function swiperSlider() {
 
   if (heroSlider) {
     heroSlider.forEach(slider => {
-      //
+      // кнопки вперед та назад
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
-      //
 
+      // комментируем или удаляем если не нужно
       let pagination = slider.querySelector('.swiper-pagination');
-      swiper = new Swiper(slider.querySelector('.swiper'), {
+
+      let swiper = new swiper(slider.querySelector('.swiper'), {
         speed: 1500,
         loop: true,
-        //centeredSlides: true,
-        // autoplay: {
-        //     delay: 3000,
-        //     disableOnInteraction: false,
-        // },
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
         slidesPerView: 1,
         spaceBetween: 20,
         pagination: {
@@ -431,12 +385,11 @@ function swiperSlider() {
             return '<li class="' + className + '"></li>';
           },
         },
-        //
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
         },
-        //
+
         on: {
           transitionStart: function () {
             let previousIndex = this.previousIndex;
@@ -455,18 +408,17 @@ function swiperSlider() {
             activeSlide.classList.add('is-play');
           },
         },
+
+        // адаптив
         breakpoints: {
-          // when window width is >= 320px
           320: {
             slidesPerView: 1,
             spaceBetween: 40,
           },
-          // when window width is >= 480px
           1024: {
             slidesPerView: 1,
             spaceBetween: 40,
           },
-          // when window width is >= 640px
           1280: {
             slidesPerView: 1,
             spaceBetween: 40,
