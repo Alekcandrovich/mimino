@@ -17,12 +17,8 @@ function swiperSlider() {
 
   if (doubleMain) {
     doubleMain.forEach(slider => {
-      // кнопки вперед и назад
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
-
-      // комментируем или удаляем если не нужно
-      // let pagination = slider.querySelector('.swiper-pagination');
 
       let swiper = new Swiper(slider.querySelector('.swiper'), {
         loop: true,
@@ -34,13 +30,6 @@ function swiperSlider() {
         },
         slidesPerView: 2,
         spaceBetween: 20,
-        // pagination: {
-        //   el: pagination,
-        //   clickable: true,
-        //   renderBullet: function (index, className) {
-        //     return '<li class="' + className + '"></li>';
-        //   },
-        // },
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
@@ -64,7 +53,6 @@ function swiperSlider() {
           },
         },
 
-        // адаптив
         breakpoints: {
           320: {
             slidesPerView: 2,
@@ -85,12 +73,8 @@ function swiperSlider() {
 
   if (doublep3Main) {
     doublep3Main.forEach(slider => {
-      // кнопки вперед и назад
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
-
-      // комментируем или удаляем если не нужно
-      // let pagination = slider.querySelector('.swiper-pagination');
 
       let swiper = new Swiper(slider.querySelector('.swiper'), {
         speed: 1500,
@@ -102,13 +86,6 @@ function swiperSlider() {
         },
         slidesPerView: 2,
         spaceBetween: 20,
-        // pagination: {
-        //   el: pagination,
-        //   clickable: true,
-        //   renderBullet: function (index, className) {
-        //     return '<li class="' + className + '"></li>';
-        //   },
-        // },
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
@@ -132,7 +109,6 @@ function swiperSlider() {
           },
         },
 
-        // адаптив
         breakpoints: {
           320: {
             slidesPerView: 2,
@@ -153,12 +129,8 @@ function swiperSlider() {
 
   if (doublep4Main) {
     doublep4Main.forEach(slider => {
-      // кнопки вперед и назад
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
-
-      // комментируем или удаляем если не нужно
-      // let pagination = slider.querySelector('.swiper-pagination');
 
       let swiper = new Swiper(slider.querySelector('.swiper'), {
         speed: 1500,
@@ -170,13 +142,6 @@ function swiperSlider() {
         },
         slidesPerView: 2,
         spaceBetween: 20,
-        // pagination: {
-        //   el: pagination,
-        //   clickable: true,
-        //   renderBullet: function (index, className) {
-        //     return '<li class="' + className + '"></li>';
-        //   },
-        // },
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
@@ -201,7 +166,6 @@ function swiperSlider() {
           },
         },
 
-        // адаптив
         breakpoints: {
           320: {
             slidesPerView: 2,
@@ -222,12 +186,8 @@ function swiperSlider() {
 
   if (trippleMain) {
     trippleMain.forEach(slider => {
-      // кнопки вперед та назад
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
-
-      // комментируем или удаляем если не нужно
-      // let pagination = slider.querySelector('.swiper-pagination');
 
       let swiper = new Swiper(slider.querySelector('.swiper'), {
         speed: 1500,
@@ -239,13 +199,6 @@ function swiperSlider() {
         },
         slidesPerView: 3,
         spaceBetween: 20,
-        // pagination: {
-        //   el: pagination,
-        //   clickable: true,
-        //   renderBullet: function (index, className) {
-        //     return '<li class="' + className + '"></li>';
-        //   },
-        // },
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
@@ -270,7 +223,6 @@ function swiperSlider() {
           },
         },
 
-        // адаптив
         breakpoints: {
           320: {
             slidesPerView: 3,
@@ -291,12 +243,8 @@ function swiperSlider() {
 
   if (trippleMainRev) {
     trippleMainRev.forEach(slider => {
-      // кнопки вперед та назад
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
-
-      // комментируем или удаляем если не нужно
-      // let pagination = slider.querySelector('.swiper-pagination');
     
       let swiper = new Swiper(slider.querySelector('.swiper'), {
         speed: 1500,
@@ -309,13 +257,6 @@ function swiperSlider() {
         },
         slidesPerView: 3,
         spaceBetween: 20,
-        // pagination: {
-        //   el: pagination,
-        //   clickable: true,
-        //   renderBullet: function (index, className) {
-        //     return '<li class="' + className + '"></li>';
-        //   },
-        // },
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
@@ -340,7 +281,6 @@ function swiperSlider() {
           },
         },
 
-        // адаптив
         breakpoints: {
           320: {
             slidesPerView: 3,
@@ -361,12 +301,8 @@ function swiperSlider() {
 
   if (heroSlider) {
     heroSlider.forEach(slider => {
-      // кнопки вперед та назад
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
-
-      // комментируем или удаляем если не нужно
-      // let pagination = slider.querySelector('.swiper-pagination');
 
       let swiper = new Swiper(slider.querySelector('.swiper'), {
         speed: 1500,
@@ -378,13 +314,6 @@ function swiperSlider() {
         },
         slidesPerView: 1,
         spaceBetween: 20,
-        // pagination: {
-        //   el: pagination,
-        //   clickable: true,
-        //   renderBullet: function (index, className) {
-        //     return '<li class="' + className + '"></li>';
-        //   },
-        // },
         navigation: {
           nextEl: arrowRight,
           prevEl: arrowLeft,
@@ -408,8 +337,7 @@ function swiperSlider() {
             activeSlide.classList.add('is-play');
           },
         },
-      
-        // адаптив
+
         breakpoints: {
           320: {
             slidesPerView: 1,
