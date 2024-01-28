@@ -245,7 +245,7 @@ function swiperSlider() {
     trippleMainRev.forEach(slider => {
       let arrowLeft = slider.querySelector('.swiper-button-prev');
       let arrowRight = slider.querySelector('.swiper-button-next');
-    
+
       let swiper = new Swiper(slider.querySelector('.swiper'), {
         speed: 1500,
         loop: true,
@@ -309,8 +309,8 @@ function swiperSlider() {
         loop: true,
         centeredSlides: true,
         autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
+          delay: 3000,
+          disableOnInteraction: false,
         },
         slidesPerView: 1,
         spaceBetween: 20,
