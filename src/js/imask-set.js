@@ -13,7 +13,7 @@ function inputMask() {
             var mask = IMask(input, maskOptions);
         })
     }
-    ////
+
     if (maskInputs01.length > 0) {
         maskInputs01.forEach(input => {
             var maskOptions = {
