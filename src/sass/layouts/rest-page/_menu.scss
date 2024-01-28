@@ -16,10 +16,12 @@ td {
   padding: 32px 0;
   background-color: $lemon;
   color: $black;
+
   @include tablet {
     background-color: $dark-lemon;
     padding: 58px 0 40px;
   }
+
   @include tablet {
     background-color: $dark-lemon;
     padding: 58px 0 40px;
@@ -28,6 +30,7 @@ td {
   @include desktop {
     padding: 58px 0 60px;
   }
+
   &__title {
     margin-bottom: 32px;
     font-family: 'Times New Roman';
@@ -41,6 +44,7 @@ td {
   }
 
   &__set {
+
     @include tablet {
       display: flex;
       flex-wrap: wrap;
@@ -55,7 +59,6 @@ td {
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-
     text-align: left;
 
     @include tablet {
@@ -63,35 +66,39 @@ td {
     }
   }
 }
+
 .column {
   @media screen and (max-width: ( $tablet - 0.02)) {
     margin-bottom: 16px;
   }
+
   @include tablet {
     display: flex;
     flex-direction: column;
   }
+
   @include desktop {
     @include flexbasis(2, 140px);
   }
 
   &:first-child {
     @media (min-width: $tablet) and (max-width: ( $desktop - 0.02 )) {
-      // ліва колонка менша на 20рх від правої тільки на tablet
       flex-basis: calc(((100% - 88px) / 2) - 10px);
     }
   }
+
   &:last-child {
     @media (min-width: $tablet) and (max-width: ( $desktop - 0.02 )) {
-      // права колонка ширша на 20рх від лівої тільки на tablet
       flex-basis: calc(((100% - 88px) / 2) + 10px);
     }
+
     @include desktop {
       @include flexbasis(2, 140px);
     }
   }
 
   &__list {
+
     @include tablet {
       display: flex;
       flex-direction: column;
@@ -100,18 +107,22 @@ td {
   }
 
   &__set {
+
     @media (min-width: $tablet) {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
     }
   }
+
   &__item {
     &:not(:last-child) {
+
       @media screen and (max-width: ( $tablet - 0.02)) {
         margin-bottom: 16px;
       }
     }
+
     width: 100%;
   }
 }
@@ -148,6 +159,7 @@ td {
       line-height: calc(20 / 16);
     }
   }
+
   &__title {
     padding-bottom: 4px;
   }
@@ -173,6 +185,7 @@ td {
     line-height: calc(17 / 14);
     text-align: end;
     letter-spacing: 0.02em;
+
     @include mobile {
       width: 80px;
       padding-right: 12px;
@@ -182,6 +195,7 @@ td {
       width: 97px;
     }
   }
+
   &__price {
     min-width: 65px;
     font-family: 'Montserrat';
@@ -190,7 +204,6 @@ td {
     font-size: 14px;
     line-height: calc(17 / 14);
     text-align: end;
-
     letter-spacing: 0.02em;
     @include mobile {
       width: 80px;
@@ -210,10 +223,13 @@ td {
   @media screen and (max-width: ( $tablet - 0.02)) {
     margin: 16px auto 0;
   }
+
   margin-left: auto;
+
   @include tablet {
     margin-top: 40px;
   }
+  
   @include desktop {
     margin-top: 32px;
   }

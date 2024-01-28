@@ -15,6 +15,7 @@
 }
 
 .room-for-three__information-img {
+
   @include tablet {
     display: flex;
     flex-direction: row-reverse;
@@ -37,6 +38,7 @@
 }
 
 .room-for-three__information {
+
   @media (max-width: 1023px) {
     margin-bottom: 32px;
   }
@@ -69,7 +71,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
-
   display: flex;
   justify-content: flex-end;
 
@@ -88,7 +89,6 @@
   font-size: 40px;
   line-height: 1;
   letter-spacing: 0.3em;
-
   display: flex;
   justify-content: flex-end;
   margin-bottom: 32px;
@@ -98,6 +98,7 @@
     margin-bottom: 32px;
   }
 }
+
 .logo--letter-spacing {
   letter-spacing: normal;
 }
@@ -110,7 +111,6 @@
   letter-spacing: 0.05em;
   font-size: 24px;
   line-height: 1.1;
-
   margin-bottom: 12px;
 
   @include tablet {
@@ -137,6 +137,7 @@
 
 .room-for-three__footer {
   margin-top: 32px;
+
   @include tablet {
     margin-top: 48px;
     display: flex;
@@ -147,6 +148,7 @@
 }
 
 .room-for-three__button {
+
   @media (max-width: 1023px) {
     margin-top: 20px;
     display: flex;
@@ -172,6 +174,7 @@
 }
 
 .room-for-three__slider {
+
   @media (max-width: 1023px) {
     margin-left: 130px;
   }
@@ -197,6 +200,7 @@
 }
 
 .title-description {
+  
   @media screen and (min-width: 1024px) {
     margin-bottom: 176px;
   }

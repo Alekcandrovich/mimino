@@ -1,9 +1,4 @@
 .header {
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-between;
-  // padding-top: 24px;
-
   position: absolute;
   z-index: 10;
   top: 0;
@@ -39,19 +34,19 @@
   &__contact {
     margin: 0;
     list-style: none;
-
-    // Позиціюнування
     display: flex;
     align-items: center;
     gap: 13px;
     margin-left: auto;
+
     @include mobile {
-      // Позиціюнування
       gap: 26px;
     }
+
     @include tablet {
       gap: 72px;
     }
+
     @include desktop {
       margin-left: 0px;
     }
@@ -62,10 +57,12 @@
     align-items: center;
     gap: 26px;
     padding-left: 0;
+
     @include tablet {
       gap: 72px;
     }
   }
+
   &__icon-phone {
     display: flex;
     align-items: center;
@@ -77,9 +74,11 @@
       padding: 10px 8px 10px 8px;
     }
   }
+
   &__icon {
     fill: $accent-yellow;
   }
+
   &__link {
     display: none;
 
@@ -132,6 +131,7 @@
       gap: 23px;
     }
   }
+
   &__socials-link {
     display: none;
 
@@ -160,6 +160,7 @@
 .container-slider {
   max-width: 414px;
   margin: 0 auto;
+
   @include tablet {
     max-width: 1024px;
     margin: 0 auto;
@@ -173,6 +174,7 @@
 .header__background {
   max-width: 414px;
   margin: 0 auto;
+
   @include tablet {
     max-width: 1024px;
     margin: 0 auto;
@@ -190,9 +192,11 @@
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
+
   @include tablet {
     top: 468;
   }
+
   @include desktop {
     top: 524;
   }
@@ -208,6 +212,7 @@
     position: relative;
   }
 }
+
 .hero__title-s {
   color: white;
   font-family: FilmP3 Bold;
@@ -216,10 +221,12 @@
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 20px;
+
   &-span {
     font-size: 24px;
   }
 }
+
 .hero__description {
   width: 325px;
   color: white;
@@ -228,12 +235,14 @@
   font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.02em;
+
   @include tablet {
     width: 400px;
     font-size: 16px;
     line-height: 1.125;
   }
 }
+
 .hero__button-s {
   display: block;
   color: #f3c653;
@@ -254,7 +263,8 @@
 
   @include tablet {
     left: 740px;
-    @include desktop {
+
+  @include desktop {
       left: 980px;
     }
   }
@@ -266,6 +276,7 @@
   fill: rgba(243, 198, 83, 0.7);
   margin: 0 10px 0;
 }
+
 .heros__address-link {
   display: none;
 
@@ -276,17 +287,18 @@
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
   }
+
   @include desktop {
     display: none;
   }
 }
+
 .hero__address-link2 {
   display: flex;
   width: 243px;
   align-items: center;
   border: 1px solid rgba(243, 198, 83, 0.7);
   border-radius: 2px;
-
   position: absolute;
   top: 100px;
 
@@ -298,10 +310,12 @@
   @include tablet {
     display: none;
   }
+
   @include desktop {
     display: none;
   }
 }
+
 .heros__address2 {
   font-family: 'Montserrat';
   font-style: normal;
@@ -314,10 +328,6 @@
   padding: 8px 0px;
 }
 .hero__address3 {
-  //   position: absolute;
-  //   top: 75px;
-  //   right: 50%;
-  //   transform: translateX(180px);
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -327,12 +337,12 @@
   color: #e5e5e5;
   margin-left: 10px;
   padding: 8px 3px;
-  //   border: 1px solid rgba(243, 198, 83, 0.7);
-  //   border-radius: 2px;
+
   @include tablet {
     display: none;
   }
 }
+
 .hero__addressm {
   position: absolute;
   top: 100px;
@@ -344,10 +354,12 @@
   line-height: 20px;
   letter-spacing: 0.01em;
   color: #e5e5e5;
+
   @include tablet {
     display: none;
   }
 }
+
 .header__socials2 {
   display: flex;
   flex-direction: column;
@@ -358,25 +370,30 @@
     align-items: center;
     gap: 21px;
   }
+
   @include desktop {
     display: none;
   }
 }
+
 .header__socials-link2 {
   display: flex;
   flex-direction: column;
   fill: $accent-yellow;
 }
+
 .heros__address-hide {
   display: flex;
   gap: 40px;
   flex-direction: row;
   align-items: center;
   margin-top: 16px;
+
   @include tablet {
     margin-top: 24px;
   }
 }
+
 .hero-button2a {
   color: #f3c653;
   padding: 14px 34px;
@@ -390,16 +407,20 @@
   cursor: pointer;
   text-decoration: none;
 }
+
 .header__social-mobile {
   display: flex;
   gap: 70px;
   align-items: center;
 }
+
 .header .logotype {
   margin-right: 0;
+
   @include tablet {
     margin-right: auto;
   }
+  
   @include desktop {
     margin-right: 0;
   }

@@ -1,8 +1,5 @@
 .footer {
   background-color: $color-footer;
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-between;
   padding: 80px 0;
 
   @include tablet {
@@ -18,14 +15,11 @@
   &__nav {
     display: flex;
     flex-wrap: wrap;
-    // gap: 80px;
 
     @include tablet {
-      // gap: 183px;
     }
 
     @include desktop {
-      // gap: 231px;
     }
   }
 

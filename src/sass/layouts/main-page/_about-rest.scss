@@ -1,6 +1,7 @@
 .features {
   background-color: $lemon;
 }
+
 .features__text {
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
@@ -13,6 +14,7 @@
     }
   }
 }
+
 .features__mimino {
   font-family: Film P3;
   font-weight: 700;
@@ -35,6 +37,7 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: $color-text-gray;
+
   &--second {
     color: $brown;
 
@@ -71,12 +74,14 @@
   &--restaurant {
     align-items: flex-start;
   }
+
   @media screen and (max-width: 1023px) {
     &--restaurant {
       margin-right: 124px;
     }
   }
 }
+
 .img-container {
   @media screen and (max-width: 1023px) {
     display: flex;
@@ -113,11 +118,13 @@
     font-size: 32px;
     line-height: 1.156;
   }
+
   .features__mimino {
     margin-bottom: 24px;
     font-size: 64px;
     line-height: 1.078;
   }
+
   .features__paragraph {
     font-size: 16px;
   }
@@ -128,6 +135,7 @@
     &--restaurant {
       margin-right: 97px;
     }
+    
     &--second {
       min-width: 350px;
 
@@ -149,10 +157,12 @@
   .text-container--restaurant {
     margin-left: 37px;
   }
+
   .img-container {
     min-width: 460px;
   }
 }
+
 @media screen and (max-width: 1023px) {
   .swiper-btns.swiper-btns--restaurant {
     justify-content: center;
@@ -162,13 +172,16 @@
 .restaurant-slider {
   display: flex;
   justify-content: flex-end;
+
   @media screen and (min-width: 1280px) {
     transform: translateY(-125px);
   }
+
   @media screen and (min-width: 1024px) {
     transform: translateY(-50px);
   }
 }
+
 @media screen and (max-width: 1023px) {
   .restaurant-slider {
     transform: translateX(124px);

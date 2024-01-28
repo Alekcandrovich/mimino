@@ -1,9 +1,11 @@
 .kitchen-slider {
   display: flex;
   justify-content: flex-end;
+
   @media screen and (min-width: 1280px) {
     transform: translateY(-125px);
   }
+  
   @media screen and (min-width: 1024px) {
     transform: translateY(-50px);
   }
