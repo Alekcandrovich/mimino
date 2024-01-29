@@ -113,6 +113,7 @@
   flex-wrap: wrap;
   width: 340px;
   margin: 0 auto;
+  
   @include tablet {
     width: 746px;
   }
