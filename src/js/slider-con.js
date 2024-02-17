@@ -1,5 +1,6 @@
 function swiperSlider() {
   const doubleMain = document.querySelectorAll('[data-slider="double-slider"]');
+
   const doublep3Main = document.querySelectorAll(
     '[data-slider="double-slider-page3"]'
   );
@@ -25,7 +26,7 @@ function swiperSlider() {
         speed: 1500,
         centeredSlides: true,
         autoplay: {
-          delay: 3000,
+          delay: 2000,
           disableOnInteraction: false,
         },
         slidesPerView: 2,
@@ -81,7 +82,7 @@ function swiperSlider() {
         loop: true,
         centeredSlides: true,
         autoplay: {
-          delay: 3000,
+          delay: 2000,
           disableOnInteraction: false,
         },
         slidesPerView: 2,
@@ -137,7 +138,7 @@ function swiperSlider() {
         loop: true,
         centeredSlides: true,
         autoplay: {
-          delay: 3000,
+          delay: 2000,
           disableOnInteraction: false,
         },
         slidesPerView: 2,
@@ -194,7 +195,7 @@ function swiperSlider() {
         loop: true,
         centeredSlides: true,
         autoplay: {
-          delay: 3000,
+          delay: 2000,
           disableOnInteraction: false,
         },
         slidesPerView: 3,
@@ -251,7 +252,7 @@ function swiperSlider() {
         loop: true,
         centeredSlides: true,
         autoplay: {
-          delay: 3000,
+          delay: 2000,
           reverseDirection: true,
           disableOnInteraction: true,
         },
@@ -309,7 +310,7 @@ function swiperSlider() {
         loop: true,
         centeredSlides: true,
         autoplay: {
-          delay: 3000,
+          delay: 2000,
           disableOnInteraction: false,
         },
         slidesPerView: 1,
